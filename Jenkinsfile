@@ -6,7 +6,7 @@ node() {
 
     stage('Build')
 
-    def mvnHome = tool 'Maven 3.3.x'
+    def mvnHome = tool 'M3'
     env.JAVA_HOME = tool 'JDK 1.8'
 
     if (isUnix()) {
